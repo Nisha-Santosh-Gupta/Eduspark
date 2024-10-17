@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	//cors policy to allow all origins
-	cors( { origin: "https://eduspark-lemon.vercel.app/", credentials: true } )
+	cors( { origin: "https://eduspark-lemon.vercel.app", credentials: true } )
 )
 
 app.use(
